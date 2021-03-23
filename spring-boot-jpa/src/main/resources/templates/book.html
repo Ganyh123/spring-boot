@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>图书页面</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<h2 th:text="${message}">图书页面</h2>
+<div class="container">
+    <div class="card" th:each="book:${bookList}">
+        <img src="https://via.placeholder.com/150" alt="封面"
+            th:src="${book.cover}" class="card-img"
+        />
+        <div class="card-body">
+            <p th:text="${book.name}">图书名称</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

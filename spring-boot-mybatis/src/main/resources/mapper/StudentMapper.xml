@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gyhstudy.springboot.mybatis.mapper.StudentMapper">
+  <resultMap id="BaseResultMap" type="com.gyhstudy.springboot.mybatis.domain.Student">
+    <!--@mbg.generated-->
+    <!--@Table t_student-->
+    <id column="student_id" jdbcType="INTEGER" property="studentId" />
+    <result column="clazz_id" jdbcType="INTEGER" property="clazzId" />
+    <result column="student_name" jdbcType="VARCHAR" property="studentName" />
+    <result column="hometown" jdbcType="VARCHAR" property="hometown" />
+    <result column="birthday" jdbcType="DATE" property="birthday" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    student_id, clazz_id, student_name, hometown, birthday
+  </sql>
+<!--  根据主键id查询学生-->
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select *
+    from t_student
+    where student_id = #{studentId,jdbcType=INTEGER}
+  </select>
+<!--  根据主键id删除学生-->
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from t_student
+    where student_id = #{studentId,jdbcType=INTEGER}
+  </delete>
+<!--  新增学生-->
+  <insert id="insert" keyColumn="student_id" keyProperty="studentId" parameterType="com.gyhstudy.springboot.mybatis.domain.Student" useGeneratedKeys="true">
+    <!--@mbg.generated-->
+    insert into t_student (clazz_id, student_name, hometown, 
+      birthday)
+    values (#{clazzId,jdbcType=INTEGER}, #{studentName,jdbcType=VARCHAR}, #{hometown,jdbcType=VARCHAR}, 
+      #{birthday,jdbcType=DATE})
+  </insert>
+<!--   根据学生id修改学生信息-->
+  <update id="updateByPrimaryKeySelective" parameterType="com.gyhstudy.springboot.mybatis.domain.Student">
+    <!--@mbg.generated-->
+    update t_student
+    <set>
+      <if test="clazzId != null">
+        clazz_id = #{clazzId,jdbcType=INTEGER},
+      </if>
+      <if test="studentName != null">
+        student_name = #{studentName,jdbcType=VARCHAR},
+      </if>
+      <if test="hometown != null">
+        hometown = #{hometown,jdbcType=VARCHAR},
+      </if>
+      <if test="birthday != null">
+        birthday = #{birthday,jdbcType=DATE},
+      </if>
+    </set>
+    where student_id = #{studentId,jdbcType=INTEGER}
+  </update>
+</mapper>
