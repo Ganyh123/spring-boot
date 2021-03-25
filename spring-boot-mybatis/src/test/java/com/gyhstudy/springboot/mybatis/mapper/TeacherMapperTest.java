@@ -7,10 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import javax.annotation.Resource;
-
 import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest
 @ExtendWith(SpringExtension.class)
 class TeacherMapperTest {
@@ -27,6 +24,11 @@ class TeacherMapperTest {
     void insertTeacher(){
         Teacher teacher = Teacher.builder().teacherName("吴老师").clazzId(2).build();
         teacherMapper.insertTeacher(teacher);
+    }
+    @Test
+    void getClazzOneByOne(){
+        Teacher teacher = teacherMapper.getClazzOneByOne(1);
+        System.out.println(teacher);
     }
 
 }

@@ -2,60 +2,28 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.gyhstudy.springboot.mybatis.mapper.CourseMapper">
   <resultMap id="BaseResultMap" type="com.gyhstudy.springboot.mybatis.domain.Course">
-    <!--@mbg.generated-->
-    <!--@Table t_course-->
     <id column="course_id" jdbcType="INTEGER" property="courseId" />
     <result column="course_name" jdbcType="VARCHAR" property="courseName" />
+    <collection property="students" ofType="Student">
+      <id column="student_id" property="studentId"/>
+      <result column="student_name" property="studentName"/>
+      <result column="clazz_id" property="clazzId"/>
+      <result column="hometown" property="hometown"/>
+      <result column="birthday" property="birthday"/>
+    </collection>
   </resultMap>
-  <sql id="Base_Column_List">
-    <!--@mbg.generated-->
-    course_id, course_name
-  </sql>
-  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
-    <!--@mbg.generated-->
-    select 
-    <include refid="Base_Column_List" />
-    from t_course
-    where course_id = #{courseId,jdbcType=INTEGER}
+
+  <select id="getCourseAndStudent" resultMap="BaseResultMap" parameterType="string">
+    select c.course_id, course_name,s.student_id, clazz_id, student_name, hometown, birthday
+    from t_course c,t_student s
+    left join t_course_student tcs on s.student_id = tcs.student_id
+    where course_name = #{coursename}
+    and tcs.course_id = c.course_id
+
+<!--    select c.course_id, course_name,s.student_id, clazz_id, student_name, hometown, birthday-->
+<!--     from t_course c,t_student s,t_course_student tcs-->
+<!--     where course_name = #{coursename,jdbcType=VARCHAR}-->
+<!--     and tcs.student_id = s.student_id-->
+<!--     and tcs.course_id = c.course_id-->
   </select>
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
-    <!--@mbg.generated-->
-    delete from t_course
-    where course_id = #{courseId,jdbcType=INTEGER}
-  </delete>
-  <insert id="insert" keyColumn="course_id" keyProperty="courseId" parameterType="com.gyhstudy.springboot.mybatis.domain.Course" useGeneratedKeys="true">
-    <!--@mbg.generated-->
-    insert into t_course (course_name)
-    values (#{courseName,jdbcType=VARCHAR})
-  </insert>
-  <insert id="insertSelective" keyColumn="course_id" keyProperty="courseId" parameterType="com.gyhstudy.springboot.mybatis.domain.Course" useGeneratedKeys="true">
-    <!--@mbg.generated-->
-    insert into t_course
-    <trim prefix="(" suffix=")" suffixOverrides=",">
-      <if test="courseName != null">
-        course_name,
-      </if>
-    </trim>
-    <trim prefix="values (" suffix=")" suffixOverrides=",">
-      <if test="courseName != null">
-        #{courseName,jdbcType=VARCHAR},
-      </if>
-    </trim>
-  </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.gyhstudy.springboot.mybatis.domain.Course">
-    <!--@mbg.generated-->
-    update t_course
-    <set>
-      <if test="courseName != null">
-        course_name = #{courseName,jdbcType=VARCHAR},
-      </if>
-    </set>
-    where course_id = #{courseId,jdbcType=INTEGER}
-  </update>
-  <update id="updateByPrimaryKey" parameterType="com.gyhstudy.springboot.mybatis.domain.Course">
-    <!--@mbg.generated-->
-    update t_course
-    set course_name = #{courseName,jdbcType=VARCHAR}
-    where course_id = #{courseId,jdbcType=INTEGER}
-  </update>
 </mapper>

@@ -3,15 +3,10 @@ package com.gyhstudy.springboot.mybatis.mapper;
 import com.gyhstudy.springboot.mybatis.domain.Course;
 
 public interface CourseMapper {
-    int deleteByPrimaryKey(Integer courseId);
-
-    int insert(Course record);
-
-    int insertSelective(Course record);
-
-    Course selectByPrimaryKey(Integer courseId);
-
-    int updateByPrimaryKeySelective(Course record);
-
-    int updateByPrimaryKey(Course record);
+    /**
+     * 查询该课程下的学生信息
+     * @param coursename
+     * @return
+     */
+    Course getCourseAndStudent(String coursename);
 }
