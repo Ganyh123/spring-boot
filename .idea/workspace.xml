@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04ff6cc2-405d-47f8-b4de-695e542a62d3" name="Default Changelist" comment="spring-boot-study">
+      <change afterPath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-config/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-config/src/main/java/com/gyhstudy/springboot/config/SpringBootConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-config/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-config/src/test/java/com/gyhstudy/springboot/config/SpringBootConfigApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/test/java/com/gyhstudy/springboot/mybatis/mapper/ClazzMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/test/java/com/gyhstudy/springboot/mybatis/mapper/CourseMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-quickstart/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-quickstart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-quickstart/src/main/java/com/gyhstudy/springboot/quickstart/SpringBootQuickstartApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-quickstart/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-quickstart/src/test/java/com/gyhstudy/springboot/quickstart/SpringBootQuickstartApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-web/src/main/java/com/gyhstudy/springboot/web/SpringBootWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-web/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-web/src/test/java/com/gyhstudy/springboot/web/SpringBootWebApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/gyhstudy/springboot/mybatis/domain/Clazz.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/gyhstudy/springboot/mybatis/domain/Clazz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/gyhstudy/springboot/mybatis/domain/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/gyhstudy/springboot/mybatis/domain/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/gyhstudy/springboot/mybatis/domain/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/gyhstudy/springboot/mybatis/domain/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/gyhstudy/springboot/mybatis/domain/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/gyhstudy/springboot/mybatis/domain/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/gyhstudy/springboot/mybatis/mapper/ClazzMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/gyhstudy/springboot/mybatis/mapper/ClazzMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/gyhstudy/springboot/mybatis/mapper/CourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/gyhstudy/springboot/mybatis/mapper/CourseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/gyhstudy/springboot/mybatis/mapper/CourseStudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/gyhstudy/springboot/mybatis/mapper/CourseStudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/gyhstudy/springboot/mybatis/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/gyhstudy/springboot/mybatis/mapper/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/gyhstudy/springboot/mybatis/mapper/TeacherMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/gyhstudy/springboot/mybatis/mapper/TeacherMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/resources/mapper/ClazzMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/resources/mapper/ClazzMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/resources/mapper/CourseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/resources/mapper/CourseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/resources/mapper/CourseStudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/resources/mapper/CourseStudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/resources/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/resources/mapper/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/resources/mapper/TeacherMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/resources/mapper/TeacherMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/test/java/com/gyhstudy/springboot/mybatis/mapper/StudentMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/test/java/com/gyhstudy/springboot/mybatis/mapper/StudentMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/test/java/com/gyhstudy/springboot/mybatis/mapper/TeacherMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/test/java/com/gyhstudy/springboot/mybatis/mapper/TeacherMapperTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Mybatis Mapper" />
+        <option value="HTML File" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="PATH_TO_GIT" value="C:\Program Files\Git\bin\git.exe" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Ganyh123/spring-boot" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven_jar" />
+        <option name="mavenHome" value="D:\maven\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="1q96MXO4J8RWKL4MH6DGaBVikvb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../study/book" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\GANZONG\Desktop\class\spring-boot-learning\spring-boot-jpa\src\main\resources" />
+      <recent name="C:\Users\GANZONG\Desktop\class\spring-boot-learning\spring-boot-jpa\src\main\java\com\gyhstudy\springboot\jpa" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.gyhstudy.springboot.mybatis.mapper" />
+      <recent name="com.gyhstudy.springboot.jpa.service" />
+      <recent name="com.gyhstudy.springboot.jpa.service.impl" />
+      <recent name="com.gyhman.springboot.mybatis.mapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CourseMapperTest.getCourseAndStudent">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseMapperTest.getCourseAndStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gyhstudy.springboot.mybatis.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gyhstudy.springboot.mybatis.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.gyhstudy.springboot.mybatis.mapper.CourseMapperTest" />
+      <option name="METHOD_NAME" value="getCourseAndStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentMapperTest.batchInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gyhstudy.springboot.mybatis.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gyhstudy.springboot.mybatis.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.gyhstudy.springboot.mybatis.mapper.StudentMapperTest" />
+      <option name="METHOD_NAME" value="batchInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentMapperTest.batchUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gyhstudy.springboot.mybatis.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gyhstudy.springboot.mybatis.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.gyhstudy.springboot.mybatis.mapper.StudentMapperTest" />
+      <option name="METHOD_NAME" value="batchUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentMapperTest.getClazzManyToOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gyhstudy.springboot.mybatis.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gyhstudy.springboot.mybatis.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.gyhstudy.springboot.mybatis.mapper.StudentMapperTest" />
+      <option name="METHOD_NAME" value="getClazzManyToOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentMapperTest.getStudentAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gyhstudy.springboot.mybatis.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gyhstudy.springboot.mybatis.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.gyhstudy.springboot.mybatis.mapper.StudentMapperTest" />
+      <option name="METHOD_NAME" value="getStudentAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gyhstudy.springboot.config.SpringBootConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-jpa" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gyhstudy.springboot.jpa.SpringBootJpaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootMybatisApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gyhstudy.springboot.mybatis.SpringBootMybatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gyhman.springboot.mybatis.SpringBootMybatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootQuickstartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-quickstart" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gyhstudy.springboot.quickstart.SpringBootQuickstartApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gyhstudy.springboot.web.SpringBootWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CourseMapperTest.getCourseAndStudent" />
+        <item itemvalue="JUnit.StudentMapperTest.getStudentAll" />
+        <item itemvalue="JUnit.StudentMapperTest.getClazzManyToOne" />
+        <item itemvalue="JUnit.StudentMapperTest.batchUpdate" />
+        <item itemvalue="JUnit.StudentMapperTest.batchInsert" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\GANZONG\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04ff6cc2-405d-47f8-b4de-695e542a62d3" name="Default Changelist" comment="" />
+      <created>1616479413457</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616479413457</updated>
+      <workItem from="1616479415318" duration="347000" />
+      <workItem from="1616479778708" duration="387000" />
+      <workItem from="1616480276319" duration="349000" />
+      <workItem from="1616480655863" duration="379000" />
+      <workItem from="1616481064316" duration="792000" />
+      <workItem from="1616481887057" duration="85000" />
+      <workItem from="1616481984123" duration="3087000" />
+      <workItem from="1616490660137" duration="21186000" />
+      <workItem from="1616513943134" duration="288000" />
+      <workItem from="1616641866607" duration="3415000" />
+      <workItem from="1616649838866" duration="22294000" />
+    </task>
+    <task id="LOCAL-00001" summary="spring-boot-study">
+      <created>1616510540944</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616510540945</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="REGEX" value="true" />
+                </TextFilterSettings>
+              </option>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="92" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="spring-boot-study" />
+    <MESSAGE value="多表查询，" />
+    <option name="LAST_COMMIT_MESSAGE" value="多表查询，" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
+        <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
+      </path>
+      <path>
+        <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
+        <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
+        <item name="spring-boot-mybatis" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+</project>
